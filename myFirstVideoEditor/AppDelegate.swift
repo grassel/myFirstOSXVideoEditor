@@ -16,6 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
+        var panel = ClipSelectionPanel();
+        panel.enumerateClips()
     }
 
     func applicationWillTerminate(aNotification: NSNotification?) {

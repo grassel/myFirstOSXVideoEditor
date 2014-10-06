@@ -11,6 +11,11 @@
 		C58AC57C19E1A359004C1F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58AC57B19E1A359004C1F73 /* Images.xcassets */; };
 		C58AC57F19E1A359004C1F73 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58AC57D19E1A359004C1F73 /* MainMenu.xib */; };
 		C58AC58B19E1A359004C1F73 /* myFirstVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AC58A19E1A359004C1F73 /* myFirstVideoEditorTests.swift */; };
+		C58AC59519E1BC77004C1F73 /* ClipSelectionPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AC59419E1BC77004C1F73 /* ClipSelectionPanel.swift */; };
+		C58AC59919E1BCFA004C1F73 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58AC59619E1BCFA004C1F73 /* AVFoundation.framework */; };
+		C58AC59A19E1BCFA004C1F73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58AC59719E1BCFA004C1F73 /* CoreFoundation.framework */; };
+		C58AC59B19E1BCFA004C1F73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58AC59819E1BCFA004C1F73 /* Foundation.framework */; };
+		C58AC59D19E1BDA7004C1F73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58AC59C19E1BDA7004C1F73 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,11 @@
 		C58AC58419E1A359004C1F73 /* myFirstVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58AC58919E1A359004C1F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C58AC58A19E1A359004C1F73 /* myFirstVideoEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstVideoEditorTests.swift; sourceTree = "<group>"; };
+		C58AC59419E1BC77004C1F73 /* ClipSelectionPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipSelectionPanel.swift; sourceTree = "<group>"; };
+		C58AC59619E1BCFA004C1F73 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C58AC59719E1BCFA004C1F73 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C58AC59819E1BCFA004C1F73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C58AC59C19E1BDA7004C1F73 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58AC59D19E1BDA7004C1F73 /* Cocoa.framework in Frameworks */,
+				C58AC59919E1BCFA004C1F73 /* AVFoundation.framework in Frameworks */,
+				C58AC59A19E1BCFA004C1F73 /* CoreFoundation.framework in Frameworks */,
+				C58AC59B19E1BCFA004C1F73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +69,10 @@
 		C58AC56B19E1A359004C1F73 = {
 			isa = PBXGroup;
 			children = (
+				C58AC59C19E1BDA7004C1F73 /* Cocoa.framework */,
+				C58AC59619E1BCFA004C1F73 /* AVFoundation.framework */,
+				C58AC59719E1BCFA004C1F73 /* CoreFoundation.framework */,
+				C58AC59819E1BCFA004C1F73 /* Foundation.framework */,
 				C58AC57619E1A359004C1F73 /* myFirstVideoEditor */,
 				C58AC58719E1A359004C1F73 /* myFirstVideoEditorTests */,
 				C58AC57519E1A359004C1F73 /* Products */,
@@ -77,6 +95,7 @@
 				C58AC57B19E1A359004C1F73 /* Images.xcassets */,
 				C58AC57D19E1A359004C1F73 /* MainMenu.xib */,
 				C58AC57719E1A359004C1F73 /* Supporting Files */,
+				C58AC59419E1BC77004C1F73 /* ClipSelectionPanel.swift */,
 			);
 			path = myFirstVideoEditor;
 			sourceTree = "<group>";
@@ -206,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C58AC57A19E1A359004C1F73 /* AppDelegate.swift in Sources */,
+				C58AC59519E1BC77004C1F73 /* ClipSelectionPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
